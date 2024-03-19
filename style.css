@@ -1,0 +1,61 @@
+body{
+    display: flex;
+    background: url("https://img.freepik.com/free-vector/gradient-question-mark-pattern-design_23-2149423894.jpg?size=338&ext=jpg&ga=GA1.1.735520172.1710720000&semt=ais");
+}
+.main{
+    height: 500px;
+    width: 900px;
+  background: linear-gradient(45deg, red, orange, yellow, green, violet, red);
+  border: 3px solid black;
+  margin:auto;
+  margin-top: 80px;
+  text-align: center;
+}
+
+h1{
+    margin-top:110px;  
+}
+
+.p1{
+    margin-top: 30px;
+    font-size: x-large;
+}
+
+.l1{
+    font-size: large;
+}
+
+#n{
+    width:250px;
+    height: 25px;
+    text-align: center;
+    border: 2px solid black;
+    margin-top: 20px;
+}
+
+#button{
+    margin-top: 35px;
+}
+
+input[type="submit"]{
+    height: 25px;
+    width: 75px;
+    background: black;
+    color: white;
+    font-size:small;
+    font-weight: bold;
+    box-shadow: 5px 5px 5px black;
+}
+
+
+.result{
+    width: 500px;
+    height: 25px;
+    color: black;
+    margin: auto;
+    margin-top: 25px;
+    background: indianred;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
